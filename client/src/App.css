@@ -1,0 +1,55 @@
+@import-normalize;
+
+body {
+  font-size: 14px;
+  font-family: 'Inter', 'Roboto', Arial, Helvetica, sans-serif;
+  background-color: #0E2431;
+  margin: 0;
+}
+
+.margin-top-medium {
+  margin-top: 3em;
+}
+
+.room-picker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  gap: 1em;
+}
+
+.input::placeholder {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.input {
+  padding: 1em;
+  width: 35%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+.join-btn {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #0E2431;
+
+  background-color: #F9B248;
+  border: none;
+  border-radius: 10px;
+
+  margin-top: 2rem;
+  padding: 1em 1.5em;
+
+  cursor: pointer;
+}
